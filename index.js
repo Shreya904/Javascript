@@ -13,3 +13,13 @@ console.log(person.name);
 
 let selectedFruits = ['apple','orange',3];
 console.log(selectedFruits);
+function greet(name,lastName){
+    console.log('hello'+ name +' '+ lastName);
+}
+greet('shreya','srivastava');
+function cube(number){
+    return number*number*number;
+}
+let number = cube(2);
+console.log(number);
+console.log(cube(3));
